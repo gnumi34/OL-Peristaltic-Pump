@@ -1,0 +1,4 @@
+# ignore all plotted graphics
+/plot/*.png
+/plot/*.csv
+/.vscode/**
