@@ -54,7 +54,7 @@ void setup() {
         }
     } while (ret != 0);
 
-    Serial.println("Time (s),Flow Rate (uL/min),Frequency,Error,U_Now,No Flow Flag");
+    Serial.println("Time (s),Flow Rate (uL/min),Frequency");
     delay(30); // wait long enough for chip reset to complete
 }
 
