@@ -7,3 +7,4 @@ Dirancang untuk sistem dengan mikrokontroler STM32F103C6 (Blue Pill) dan sensor 
 Data dapat direkam dengan menggunakan PuTTY atau aplikasi perekam data dari Serial Monitor yang lain dan disimpan dalam bentuk CSV.
 
 Untuk membuat plot dari data yang telah diukur, jalankan file Plot.py dengan Python, lalu masukkan nama file hasil perekaman data yang telah dibuat.
+(pastikan telah meng-install library yang diperlukan terlebih dahulu pada requirements.txt)

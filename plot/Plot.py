@@ -19,7 +19,6 @@ data = pd.read_csv(file_name)
 N = len(data)
 Time = data['Time (s)']
 T = Time[N-1]
-
 t_plt = np.linspace(0, T, N, endpoint=False)
 
 plt.title("Flow Rate Measurement")
