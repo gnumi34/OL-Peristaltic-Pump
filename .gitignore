@@ -1,4 +1,6 @@
 # ignore all plotted graphics
-/plot/*.png
-/plot/*.csv
-/.vscode/**
+plot/*.png
+plot/*.csv
+
+# ignore vscode file 
+.vscode/*
