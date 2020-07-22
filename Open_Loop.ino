@@ -23,7 +23,7 @@ const float SCALE_FACTOR_TEMP = 200.0; // Scale Factor for temperature measureme
 const char *UNIT_FLOW = " ul/min"; //physical unit of the flow rate measurement
 const char *UNIT_TEMP = " deg C"; //physical unit of the temperature measurement
 
-float frekuensi = 1000.0;
+float frekuensi = 100.0;
 float read_time;
 float first_read_time;
 unsigned int read_count = 0;
@@ -87,6 +87,7 @@ void loop() {
     if (digitalRead(PA12) == LOW) {
       stop = true;
     }
+    delay(5);
   }
 
   // To stop the continuous measurement, first send 0x3FF9.
