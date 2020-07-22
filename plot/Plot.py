@@ -10,8 +10,12 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 import math
+import sys
 
-file_name = input("Enter file name : ")
+try:
+    file_name = sys.argv[1]
+except IndexError:
+    raise SystemExit(f"usage: {sys.argv[0]} csv_file")
 
 data = pd.read_csv(file_name)
 
